@@ -2,6 +2,7 @@ name: Issue Info
 on:
   issues:
     types: [opened, closed, edited]
+  workflow_dispatch:
 jobs:
     issue_details:
         runs-on: ubuntu-latest
